@@ -11,7 +11,7 @@ OBJS_SERVER = $(SRCS_SERVER:src/%.c=$(OBJS_DIR)/%.o)
 NAME_CLIENT = client
 NAME_SERVER = server
 
-CC = gcc
+CC = cc
 RM = rm -f
 CFLAGS = -Wall -Wextra -Werror -Ilibft
 
